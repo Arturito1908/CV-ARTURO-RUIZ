@@ -1,0 +1,67 @@
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(32, 148, 177);
+    /*display: inline-block;*/
+
+}
+
+li {
+    float: left;
+    
+    
+}
+
+li a {
+    display: inline-block;
+    color: rgba(2, 2, 2, 0.548);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 140%;
+}
+
+li a:hover {
+    background-color:rgb(2, 40, 49);
+    transform: scaleX(1.2);
+    font-style:  italic ;
+    
+    color: rgb(255, 255, 255);
+
+}
+
+#cfoto{
+    min-height: 700px;
+    border-color: azure;
+    border-style: double;
+
+}
+
+body{ background-image: url("img/fondo.jpg");
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 0;
+    
+    
+}
+
+@media screen and (max-width: 500px) {
+    body {
+background-image: url("img/fondo2.jpg");    }
+}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+}
